@@ -31,7 +31,7 @@ users should be able to:
 Download the zip file using the green button, or clone the repository by running the command `git clone https://github.com/Nierowheezy/rest-countries.git` in your terminal.
 In the same terminal once the command is complete, run `npm install` which will install all the dependencies in the `package.json` file and then run `npm start` which will start your development server on `localhost:3000`.
 
-### You will get an error while performing a filter by region
+### You might get an error while performing a filter by region
 
 This api endpoint doesnt work as it returns a error 404 not found https://restcountries.com/v2/continent/{region}
 The filter couldn't be implemented except if the api version is changed, but the api v3 works, although it returns a different data
